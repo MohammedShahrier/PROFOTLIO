@@ -5,20 +5,12 @@
   <meta charset="utf-8">
 
   <title>Gallery</title>
-  <link rel="stylesheet" href="interests.css">
+  <link rel="stylesheet" href="admin.css">
   <link rel="stylesheet" href="../style.css">
 
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <script src="interests.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <style type="text/css">
-    table button{
-      float: left;
-      margin: 5px;
-    }
-  </style>
 </head>
 
 <body>
@@ -42,7 +34,7 @@
 
   <h1 style="text-align: center;">Contact forms submitted by users </h1>
 
-  <table style="width: 80%;margin:auto;" border="1">
+  <table style="width: 80%;margin:auto;">
     <thead>
       <tr><th>Sn</th><th>Name</th><th>Email</th><th>Message</th><th>Actions</th></tr>
     </thead>
@@ -80,15 +72,16 @@ $result = $conn -> query($sql);
   <br/><br/>
 
 
-<footer style="text-align: center;color:#fff;background-color: #002429">
+<footer>
         <h2>Thanks!</h2>
-        <h2>Want to know more about me?</h2>
-        <div style="margin:auto; margin-top:10px; margin-bottom:10px;width: 10%;border: 2px solid #fff;padding:10px;"><a style="color: #fff;text-decoration: none;" href="../Contact/contact.html"><h3>Contact</h3></a></div>
-        <a target="_blank" class="github" href="https://github.com/MohammedShahrier"><img src="../images/linkedin.png" style="width: 50px; height:auto;margin-right: 20px;"> </a>
-        <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/msh95/"><img src="../images/git.png" style="width: 50px; height:auto;">  </a>
-        
-        <h2> &copy; Mohammed Shahrier</h2>
+        <h3>Want to know more about me?</h3>
+        <div class="contact-box"><h3><a href="../Contact/contact.html">Contact</a></h3></div>
+        <a target="_blank" class="linkedin scl-lnk" href="https://www.linkedin.com/in/msh95/"><img alt="Mohammed Shahrier Linkedin" src="../images/linkedin.png"> </a>
+        <a  target="_blank" class="github scl-lnk" href="https://github.com/MohammedShahrier"><img alt="Mohammed Shahrier Linkedin" src="../images/git.png">  </a>
+
+        <h2> © Mohammed Shahrier</h2>
   </footer>
+
 </body>
 
 

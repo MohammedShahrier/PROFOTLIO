@@ -21,3 +21,13 @@ p {
   grid-row-gap: 10px;
 }
 /*  */
+
+
+ table button{
+      float: left;
+      margin: 5px;
+    }
+
+table td,table th{
+  border: 1px solid grey;
+}    

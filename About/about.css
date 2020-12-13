@@ -24,3 +24,6 @@ img:hover {
   height: 370px;
   transition: 0.3s ease;
 }
+
+
+.grid-half{float:left;border:5px solid #002429;padding:20px;background:azure;margin-bottom:20px;}.grid-half a{text-decoration:none;color:#002429}.grid-half:hover{border-color:#ff7a59;background:azure;cursor:pointer}.grid-half:hover{animation:bounce 1s}@keyframes bounce{0%,100%,20%,60%{-webkit-transform:translateY(0);transform:translateY(0)}40%{-webkit-transform:translateY(-20px);transform:translateY(-20px)}80%{-webkit-transform:translateY(-10px);transform:translateY(-10px)}}

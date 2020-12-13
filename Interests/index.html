@@ -9,74 +9,11 @@
   <link rel="stylesheet" href="../style.css">
 
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <script src="interests.js"></script>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style type="text/css">
-    /* Label */
-.ac-container {
-  max-width: 80%;
-    /* border: 1px solid #ccc; */
-    border-top: none;
-}
-.ac-container label {
-    height: 50px;
-    line-height: 1.8;
-    font-size: 30px;
-    padding: 0px 15px;
-    display: block;
-    cursor: pointer;
-    color: #fff;
-    background: #002429;
-    border-radius: 7px;
-    border-top: 1px solid #ccc;
-}
-.ac-container {
-  width: 100%;
-  margin: 10px auto;
-}
-.ac-container label:hover {
-  background: #000;
-}
-.ac-container input {
-  display: none;
-}
-
-/* Contents */
-.ac-container article {
-  overflow: hidden;
-  height: 0;
-  transition: 0.6s;
-}
-.ac-container article p {
-  padding: 20px;
-  font-size: 16px;
-  text-align: left;
-  color: #666;
-  line-height: 1.5;
-}
-.ac-container input:checked ~ article {
-  height: 500px;
-  max-height: 500px;
-  border-top: 1px solid #ccc;
-}
-.acco-data{
-  margin-bottom: 4px;
-}
-.thumb{
-  width: 400px;
-  height:350px;
-  float: left;
-  margin: 5px;
-  border-radius:30px;
-}
-.thumb:hover{
-  width: 450px;
-  height:380px;
-  transition: 0.3s ease;
-}
-  </style>
+  
 </head>
 
 <body>
@@ -107,9 +44,9 @@
     <label for="ac-1">Movies</label>
     <article>
       <p>Movies allow us to feel different emotions; thrill, happiness, sadness, intensity, comfort, shock, and nervousness are one reason we love watching movies. However, if you are enjoying the film, you can fantasize and imagine what you could do in that world or situation.</p>
-       <img class="thumb" src="Movies/1.jpg">
-      <img class="thumb" src="Movies/2.jpg">
-      <img class="thumb" src="Movies/3.jpg">
+       <img alt="interest" class="thumb" src="Movies/1.jpg">
+      <img alt="interest" class="thumb" src="Movies/2.jpg">
+      <img alt="interest" class="thumb" src="Movies/3.jpg">
     </article>
   </div>
   <div class="acco-data">
@@ -118,9 +55,9 @@
     <article>
       <p>Music is a method of understanding a person's and other people's happiness, sadness, rage, fear, envy, etc. Whatever the emotion is that we need to feel, music can help a person sit back and feel whatever is happening. I like music because it keeps me calm and relaxed. It makes me happy. Listening to music can provide health benefits to those suffering from certain conditions.
        </p>
-      <img class="thumb" src="Music/1.jpg">
-      <img class="thumb" src="Music/2.jpg">
-      <img class="thumb" src="Music/3.jpg">
+      <img alt="interest" class="thumb" src="Music/1.jpg">
+      <img alt="interest" class="thumb" src="Music/2.jpg">
+      <img alt="interest" class="thumb" src="Music/3.jpg">
 
     </article>
   </div>
@@ -129,9 +66,9 @@
     <label for="ac-3">Travelling</label>
     <article>
       <p>I love to travel: it helps open your mind. You realize that there's no one way to live life. Meeting people from other places will show you that your world view isn't the same as everyone else's. By being exposed to new places, people, and cultures, you'll develop a more comprehensive world view.</p>
-      <img class="thumb" src="Travelling/1.jpg">
-      <img class="thumb" src="Travelling/2.jpg">
-      <img class="thumb" src="Travelling/3.jpg">
+      <img alt="interest" class="thumb" src="Travelling/1.jpg">
+      <img alt="interest" class="thumb" src="Travelling/2.jpg">
+      <img alt="interest" class="thumb" src="Travelling/3.jpg">
     </article>
   </div>
   <div class="acco-data">
@@ -139,9 +76,9 @@
     <label for="ac-4">Video Games</label>
     <article>
       <p>A big reason why we love video games so much, I feel, is because they are an escape from our sometimes dull and monotonous lives. Another reason I believe we love video games is that they give us a sense of accomplishment. The feeling you get when you complete a good game is a feeling that's hard to compete with.</p>
-      <img class="thumb" src="VideoGames/1.jpg">
-      <img class="thumb" src="VideoGames/2.jpg">
-      <img class="thumb" src="VideoGames/3.jpg">
+      <img alt="interest" class="thumb" src="VideoGames/1.jpg">
+      <img alt="interest" class="thumb" src="VideoGames/2.jpg">
+      <img alt="interest" class="thumb" src="VideoGames/3.jpg">
     </article>
   </div>
       </section>
@@ -157,21 +94,17 @@
 
   <br/><br/>
 
-
-<footer style="text-align: center;color:#fff;background-color: #002429">
+<footer>
         <h2>Thanks!</h2>
-        <h2>Want to know more about me?</h2>
-        <div style="margin:auto; margin-top:10px; margin-bottom:10px;width: 10%;border: 2px solid #fff;padding:10px;"><a style="color: #fff;text-decoration: none;" href="../Contact/contact.html"><h3>Contact</h3></a></div>
-        <a target="_blank" class="github" href="https://www.linkedin.com/in/msh95/"><img src="../images/linkedin.png" style="width: 50px; height:auto;margin-right: 20px;"> </a>
-        <a target="_blank" class="linkedin" href="https://github.com/MohammedShahrier"><img src="../images/git.png" style="width: 50px; height:auto;">  </a>
+        <h3>Want to know more about me?</h3>
+        <div class="contact-box"><h3><a href="../Contact/contact.html">Contact</a></h3></div>
+        <a target="_blank" class="linkedin scl-lnk" href="https://www.linkedin.com/in/msh95/"><img alt="Mohammed Shahrier Linkedin" src="../images/linkedin.png"> </a>
+        <a  target="_blank" class="github scl-lnk" href="https://github.com/MohammedShahrier"><img alt="Mohammed Shahrier Linkedin" src="../images/git.png">  </a>
 
-        <h2> &copy; Mohammed Shahrier</h2>
-  </footer>
+        <h2> © Mohammed Shahrier</h2>
+      </footer>
+
 </body>
 
-
-<script type="text/javascript">
-
-</script>
 
 </html>

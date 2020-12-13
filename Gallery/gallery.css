@@ -32,3 +32,65 @@ img:hover {
   grid-row-gap: 10px;
 }
 /*  */
+
+
+
+    .grid{
+  background-repeat: no-repeat;
+ width: 100%;
+  height: 350px;
+  margin: auto;
+    background-size: 100% 100%;
+
+    
+    border-radius: 30px;
+
+}
+.grid:hover{
+ width: 500px;
+  height: 370px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#dubai.day{
+background-image: url("../images/DubaiMorning.jpg");
+}
+#dubai.night{
+background-image:  url("../images/DubaiNight.jpg");
+}
+
+
+#paris.day{
+background-image: url("../images/ParisMorning.jpeg");
+}
+#paris.night{
+background-image: url("../images/ParisNight.jpg");
+}
+
+#newyork.day{
+background-image: url("../images/NewyorkMorning.jpg");
+}
+#newyork.night{
+background-image: url("../images/NewyorkNight.jpg");
+}
+
+
+#venice.day{
+background-image: url("../images/VeniceMorning.jpg");
+}
+#venice.night{
+background-image: url("../images/VeniceNight.jpg");
+}
+
+.project-content{
+  margin: auto !important;
+}
+.grids{
+  width: 100%;
+}
+.grid{
+  margin-bottom: 40px;
+}
+
+  

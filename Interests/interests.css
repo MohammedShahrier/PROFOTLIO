@@ -1,3 +1,5 @@
+
+
 /* after nav */
 h1 {
   color: green;
@@ -20,4 +22,70 @@ p {
   grid-column-gap: 100px;
   grid-row-gap: 10px;
 }
-/*  */
+
+
+
+
+    /* Label */
+.ac-container {
+  max-width: 80%;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+}
+.ac-container label {
+    height: 50px;
+    line-height: 1.8;
+    font-size: 30px;
+    padding: 0px 15px;
+    display: block;
+    cursor: pointer;
+    color: #fff;
+    background: #002429;
+    border-radius: 7px;
+    border-top: 1px solid #ccc;
+}
+.ac-container {
+  width: 100%;
+  margin: 10px auto;
+}
+.ac-container label:hover {
+  background: #000;
+}
+.ac-container input {
+  display: none;
+}
+
+/* Contents */
+.ac-container article {
+  overflow: hidden;
+  height: 0;
+  transition: 0.6s;
+}
+.ac-container article p {
+  padding: 20px;
+  font-size: 16px;
+  text-align: left;
+  color: #666;
+  line-height: 1.5;
+}
+.ac-container input:checked ~ article {
+  height: 420px;
+  max-height: 500px;
+  border-top: 1px solid #ccc;
+}
+.acco-data{
+  margin-bottom: 4px;
+}
+.thumb{
+  width: 180px;
+  height:220px;
+  float: left;
+  margin: 5px;
+  border-radius:30px;
+}
+.thumb:hover{
+  width: 220px;
+  height:250px;
+  transition: 0.3s ease;
+}
+  
