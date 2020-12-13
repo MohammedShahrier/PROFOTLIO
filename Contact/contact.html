@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-storage.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+		https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBfG0qqKEmPqr65TtunPIfD7X6GtKbZzvA",
+        authDomain: "financeapp-144a6.firebaseapp.com",
+        databaseURL: "https://financeapp-144a6.firebaseio.com",
+        projectId: "financeapp-144a6",
+        storageBucket: "financeapp-144a6.appspot.com",
+        messagingSenderId: "369265061839",
+        appId: "1:369265061839:web:18c0e1633f6435b4dcecba",
+        measurementId: "G-L1219L589V",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      //firebase.analytics();
+    </script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="contact.js" ></script>
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+          Mohammed Shahrier</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a  href="../index.html">Home</a></li>
+          <li><a href="../Interests/index.html">Interests</a></li>
+          <li><a href="../About/about.html">Projects</a></li>
+          <li><a href="../Resume/resume.html">Resume</a></li>
+          <li><a href="../Gallery/gallery.html">Gallery</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <br/>
+      <br/>
+
+      <!-- New contact form -->
+      <div class="container">
+        <div class="row">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="row">
+            <h4 style="text-align:center">I would love to hear from you!</h4>
+        </div>
+        <form id="contacform" onsubmit="SubmitContactDetails ()" class="contact_form">
+        <div class="row input-container">
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <input name="name" class="cfv" type="text" required="" />
+                <label>Name</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <input name="email" class="cfv" type="email" required="" />
+                <label>Email</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <div class="styled-input wide">
+                <textarea name="message" class="cfv" required=""></textarea>
+                <label>Message</label>
+              </div>
+            </div>
+            <div class="col-xs-12">
+              <button class="btn-lrg submit-btn">Send Message</button>
+            </div>
+          </div>
+      </form>
+      </div>
+
+</body>
+<script type="text/javascript">
+
+</script>
+</html>
